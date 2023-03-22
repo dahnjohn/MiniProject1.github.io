@@ -1,0 +1,634 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+
+</head>
+
+
+<style type="text/css">
+
+body{
+  background-color: #f2f2f2;
+}
+
+  .top{
+    background-color:#171819 ;
+  }
+
+ .servIcon{
+  font-size: 80px;
+ }
+
+
+.carousel-caption{
+  bottom: 290px;
+  left: 50px;
+}
+
+.carousel-caption h5{
+
+font-family: 'Playfair Display', serif;
+font-size: 70PX;
+}
+
+.carousel-caption p{
+font-size: 25px;
+}
+
+.welCome{
+font-family: 'handlee', serif;
+font-size: 20px;
+color: white;
+
+}
+
+
+
+.carousel-inner:before{
+
+  content:'';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+
+}
+
+@media only screen and (max-width: 960px){
+
+.carousel-caption{
+  bottom: 150px;
+  left: 30PX;
+
+}
+
+.welCome{
+font-family: 'handlee', serif;
+font-size: 17px;
+color: #ff9C00;
+margin-bottom:0px;
+
+}
+
+.carousel-caption h5{
+font-family: 'Playfair Display', serif;
+font-size: 30px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 540px){
+
+.carousel-caption{
+  bottom: 60px;
+  left: 30PX;
+
+}
+
+.welCome{
+font-family: 'handlee', serif;
+font-size: 16px;
+color: #ff9C00;
+margin-bottom:0px;
+
+}
+
+.carousel-caption h5{
+font-family: 'Playfair Display', serif;
+font-size: 19px;
+}
+
+}
+
+
+
+
+/*Slider end*/
+
+.desTitle{
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+}
+
+
+
+  .serv{
+    background-image: linear-gradient(#da2c46,#da2c46);
+    background-size: 100% 0;
+    background-repeat: no-repeat;
+    transition: .4s;
+    border: 2px solid #da2c46;
+    box-shadow: 10px 10px 25px grey;
+    
+  }
+
+  .serv:hover{
+    background-size: 100% 100% ;
+    color: white;
+  
+  }
+
+  .lineBreak{
+ border: 1px solid #da2c46;
+ opacity: 100%;
+}
+
+
+
+
+  .foot{
+    background-color: #171819;
+  }
+
+  .icon{
+    color: #da2c46;
+    font-size: 20px;
+  }
+
+  .footSub{
+    background-color: #101011;
+  }
+  .iconBottom{
+    background-color: #da2c46;
+    font-size: 20px;
+  }
+
+</style>
+
+<body>
+
+  <div class="container-fluid top">
+    <!-- <div class="container"> -->
+      <div class="row">
+        <nav class="navbar navbar-expand-lg bg-light mt-3 mb-3 px-3">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="logo.png" class="me-4" alt="logo" width="161" height="46"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active fw-bold me-2 " aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold me-2" href="about.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle fw-bold me-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="services.html">Services</a></li>
+                    <li><a class="dropdown-item" href="services_details.html">Services Details</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold me-2" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold me-2" href="team.html">Our Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold me-2" href="shop.html">Shops</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold me-2" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold me-2" href="faq.html">FAQs</a>
+                </li>
+              </ul>
+
+              <!-- <form class="d-flex" role="search"> -->
+                <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal" >Call Us Now !</button>
+              <!-- </form> -->
+            </div>
+          </div>
+        </nav>
+      </div>
+    <!-- </div> -->
+  </div>
+
+
+  <div class="container-fluid">
+    <div class="row ">
+      <div class="col-md-12 px-0">
+        <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <img src="banner1.png" class="d-block w-100 img-fluid"  alt="...">
+              <div class="carousel-caption">
+                <p class="animated fadeInUp text-start welCome"  style="animation-delay: 1s;">Welcome To Our Company</p>
+                <h5 class="animated fadeInUp text-start"  style="animation-delay: 2s;">First & Quality Printing Press</h5>
+                <p class=" animated fadeInUp text-start d-none d-md-block"  style="animation-delay: 3s;">When we say we're not happy until you're happy, we really do mean it.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="banner2.png" class="d-block w-100 img-fluid" alt="...">
+              <div class="carousel-caption">
+                <p class="animated fadeInUp text-start welCome" style="animation-delay: 1s;">Welcome To Our Company</p>
+                <h5 class="animated fadeInUp text-start" style="animation-delay: 2s;">Get Best Printing Services</h5>
+                <p class=" animated fadeInUp text-start d-none d-md-block" style="animation-delay: 3s;">When we say we're not happy until you're happy, we really do mean it.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-md-12 text-center">
+        <p class="mb-0 fw-semibold desTitle">Best Offer Services</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row my-3">
+
+      <div class="col-md-2 mb-3 mb-sm-0 rounded border-2 text-center">
+        <div class="card">
+          <div class="card-body serv rounded">
+            <p class="servIcon"><i class="fa fa-book"></i></p>
+            <p class="fs-5 fw-semibold m-0">Year Book</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-2 mb-3 mb-sm-0 rounded border-2 text-center">
+        <div class="card">
+          <div class="card-body serv rounded">
+            <p class="servIcon"><i class="fa fa-print"></i></p>
+            <p class="fs-5 fw-semibold m-0">Printing</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-2 mb-3 mb-sm-0 rounded border-2 text-center">
+        <div class="card">
+          <div class="card-body serv rounded">
+            <p class="servIcon"><i class="fa fa-map"></i></p>
+            <p class="fs-5 fw-semibold m-0">Brochure</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-2 mb-3 mb-sm-0 rounded border-2 text-center">
+        <div class="card">
+          <div class="card-body serv rounded">
+            <p class="servIcon"><i class="fa fa-newspaper-o"></i></p>
+            <p class="fs-5 fw-semibold m-0">Posters</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-2 mb-3 mb-sm-0 rounded border-2 text-center">
+        <div class="card">
+          <div class="card-body serv rounded">
+            <p class="servIcon"><i class="fa fa-photo"></i></p>
+            <p class="fs-5 fw-semibold m-0">Tarpaulin</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-2 mb-3 mb-sm-0 rounded border-2 text-center">
+        <div class="card">
+          <div class="card-body serv rounded">
+            <p class="servIcon"><i class="fa fa-address-card"></i></p>
+            <p class="fs-5 fw-semibold m-0">Business Card</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-md-6 "> <img src="about.png" class="img-fluid border border-secondary-subtle"  alt="org1"></div>
+      <div class="col-md-6">
+          <p class="fw-semibold desTitle">Printing Solution For Your Needs</p>
+          <hr>
+          <p class="fst-normal">Complete Design collection of elements, rich customization options. Flexible layouts, and instant results!. This process offers the manufacturer a technique for achieving more delicate designs than is possible with nonflexible surface rollers. Some tonal effects are possible.</p>
+
+          <p class="fst-normal">Print designers specialize in the creation of visual designs for printing such as brochures, labels, business cards, and a range of other marketing materials. They conceptualize designs, prepare mockups, and create the final designs for printing.</p>
+
+           <a href="about.html"> <button class="btn btn-danger mt-2 fs-5 learnMore" type="submit">Learn More !</button></a>
+      </div>
+    </div>
+  </div>
+
+    <div class="container">
+    <div class="row mt-5">
+      <div class="col-md-12 text-start">
+        <p class=" fw-semibold desTitle">Printing Needs, Under One Roof</p>
+        <hr class="lineBreak">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4" >
+              <img src="index1.png" class="card-img-top" alt="...">
+            </div>
+            <div class="col-md-8 text-white" style="background-color: #e3221c;">
+              <div class="card-body">
+                <h5 class="card-title">Offset Printing</h5>
+                <p class="card-text"> Provides the best offset printing using the highest quality Printers & Machines such as Holderberg & Kornon.</p>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="index2.png" class="card-img-top" alt="...">
+            </div>
+            <div class="col-md-8 text-white" style="background-color: #ea0391;">
+              <div class="card-body">
+                <h5 class="card-title">Lamination</h5>
+                <p class="card-text"> Offers Genuine quality Tapaulins, Stickers & Panaflex printing, perfect for today's adverstising needs.</p>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="index4.png" class="card-img-top" alt="...">
+            </div>
+            <div class="col-md-8 text-white" style="background-color: #35b449;">
+              <div class="card-body">
+                <h5 class="card-title">CTP</h5>
+                <p class="card-text"> Offers quick on-demand printing using Quality Hi-sped dupliactors & Copier Machines that can accomodate Hi-volume requirements.</p>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="index3.png" class="card-img-top" alt="...">
+            </div>
+            <div class="col-md-8 text-white" style="background-color: #f26424;">
+              <div class="card-body">
+                <h5 class="card-title">Digital ID</h5>
+                <p class="card-text"> Provides High Resolution Digital Prints & Digital ID's which are affordable & durable at the same time.</p>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container-fluid">
+    <div class="container  bg-body-tertiary">
+      <div class="row mt-5">
+        <div class="col-md-12 text-center">
+         <p class="mb-0 fw-semibold desTitle">Trusted by Local Organizations</p>
+       </div>
+     </div>
+     <div class="row mt-3 mb-3 text-center">
+      <div class="col-sm-3"><img src="org1.png" class="img-fluid" alt="org1"> </div>
+      <div class="col-sm-3"><img src="org2.png" class="img-fluid" alt="org1"></div>
+      <div class="col-sm-3"><img src="org3.png" class="img-fluid" alt="org1"></div>
+      <div class="col-sm-3"><img src="org4.png" class="img-fluid" alt="org1"></div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="container">
+    <div class="row mt-5" >
+      <div class="col-md-12 text-center">
+        <p class="mb-3 fw-semibold desTitle">Blog & Insight</p>
+      </div>
+    </div>
+  </div>
+
+
+<div class="container-fluid" style="background-color: #f2f2f2;">
+  <div class="container">
+  <div class="row">
+    <div class="col-md-4">
+
+      <div class="card mb-3">
+        <img src="b3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ranga High School</h5>
+          <p class="card-text">Educational Plant Production Tour. 3/10/2023. Quality and Affordable Invitation Cards for all your Memorable Events </p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-4">
+
+      <div class="card mb-3">
+        <img src="b2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Naga College Foundation</h5>
+          <p class="card-text">College of Business & Accountancy Advertising Media & Cost Analysis Tour November 22, 201</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-4">
+
+      <div class="card mb-3">
+        <img src="b1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ateneo De Naga University</h5>
+          <p class="card-text">Welcome Ateneo De Naga University Students November 20, 2019 Educational Production Plant Exposure Tour.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container-fluid">
+  <div class="container" style="background-color:#da2c46;">
+    <div class="row my-5">
+      <div class="col-md-3 text-white text-center mt-3">
+        <p class="fs-2 fw-bold mb-0"> 798+</p>
+        <p class="fst-normal ">Project Completed</p>
+        <p> <i class="fa fa-file-powerpoint-o fs-1"></i></p>
+      </div>
+
+      <div class="col-md-3 text-white text-center mt-3">
+        <p class="fs-2 fw-bold mb-0"> 95+</p>
+        <p class="fst-normal ">Professional Staff</p>
+        <p> <i class="fa fa-users fs-1"></i></p>
+      </div>
+
+        <div class="col-md-3 text-white text-center mt-3">
+        <p class="fs-2 fw-bold mb-0"> 3+</p>
+        <p class="fst-normal ">City Covered</p>
+        <p> <i class="fa fa-building fs-1"></i></p>
+      </div>
+
+      <div class="col-md-3 text-white text-center mt-3">
+        <p class="fs-2 fw-bold mb-0"> 9999+</p>
+        <p class="fst-normal ">Satisfied People</p>
+        <p> <i class="fa fa-asl-interpreting fs-1"></i></p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  
+
+  <div class="container-fluid foot">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-white mt-4 mb-4">
+          <p class="fs-3 fw-semibold">About Us</p>
+          <p class="lh-sm text-justify">Last 2014, a business establishment has been started in Daet. The owner was fresh from abroad during that time when she and her husband decided to go build a business in the vicinity of Daet, and that business is a . They thought that establishing a salon would be a great click within the area.</p>
+        </div>
+        <div class="col-md-4 text-white mt-4 mb-4">
+          <p class="fs-3 fw-semibold">Get In Touch</p>
+          <a class="nav-link" href="#"><p>+63918 945 7777</p></a>
+          <a class="nav-link" href="#"><p>willprint.naga@yahoo.com</p></a>
+          <a class="nav-link" href="#"><p>Concepcion Grande, Naga City, Philippines</p></a>
+
+        </div>
+
+        <div class="col-md-4 text-white mt-4 mb-4">
+          <p class="fs-3 fw-semibold">Subscribe Us</p>
+          <p class="lh-sm">Subscribe us & receive our office & update in your inbox directly.</p>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default"> 
+              <i class="fa fa-envelope icon"></i>
+            </span>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid footSub">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6"><p class="text-start text-white mt-3">Copyright & Design By <span style="color: #de4259" class="fw-bold"> @KodeGo Student </span>- March 2023</p></div>
+
+        <div class="col-md-6">
+
+          <i class="fa fa-youtube p-2 me-3 mb-3 rounded-3 float-end mt-2 text-white iconBottom"></i>
+          <i class="fa fa-twitter p-2 me-3 rounded-3 float-end mt-2 text-white iconBottom"></i>
+          <i class="fa fa-facebook p-2 me-3 rounded-3 float-end mt-2 text-white iconBottom"></i>
+        </div>
+      </div>
+    </div> 
+  </div>
+
+  <!-- Modal -->
+<div class="modal fade mt-5" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header bg-danger">
+        <h1 class="modal-title fs-5 text-white" id="exampleModalLabel"> <i class="fa fa-phone-square"></i> Contact Information</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      
+      <table class="table">
+            <tbody class="fs-5">
+              <tr >
+                <td scope="row">Naga Main Branch</td>
+                <td colspan="2"></td>
+                <td class="text-end">Tel. No. (054) 473-2288</td>
+              </tr>
+
+               <tr >
+                <td scope="row">Legazpi Branch</td>
+                <td colspan="2"></td>
+                <td class="text-end">Tel. No. (052) 480-1417</td>
+              </tr>
+
+              <tr>
+                <td scope="row" class="pt-3">Daet Branch</td>
+                <td colspan="2"></td>
+                <td class="text-end">Tel. No. (054) 721-1684</td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
+
+
+
